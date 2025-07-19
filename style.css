@@ -1,33 +1,48 @@
 body {
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  background-color: #ffffff;
+  color: #222;
 }
 
 header {
-  background-color: #444;
+  background-color: #111;
   color: white;
   padding: 1em;
+  text-align: center;
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 1em;
+  justify-content: center;
+  gap: 2em;
+  padding: 0;
 }
 
 nav a {
-  color: white;
   text-decoration: none;
+  color: #e63946;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 main {
+  max-width: 800px;
+  margin: 2em auto;
   padding: 1em;
 }
 
+h2, h3 {
+  color: #e63946;
+}
+
 footer {
-  background-color: #eee;
+  background-color: #111;
+  color: white;
   text-align: center;
   padding: 1em;
-  margin-top: 2em;
 }
